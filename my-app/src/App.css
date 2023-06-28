@@ -1,0 +1,25 @@
+.header {
+  background-image: url('C:\Users\Pushkar Desai\Desktop\FootballFE\my-app\src\rm.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.club-info {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.players-list {
+  padding: 40px 0;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #343a40;
+  color: white;
+}
