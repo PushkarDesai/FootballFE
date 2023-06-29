@@ -1,12 +1,19 @@
 .header {
-  background-image: url('C:\Users\Pushkar Desai\Desktop\FootballFE\my-app\src\rm.png');
+  background-image: url('C:\Users\Pushkar Desai\Desktop\FootballFE\my-app\src\rm2.png');
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  border: navy;
+  
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .club-info {
@@ -22,4 +29,19 @@
   padding: 20px 0;
   background-color: #343a40;
   color: white;
+}
+
+.navbar {
+  border: 1px solid navy;
+  background-color: white;
+  color: white;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  margin-right: 5px;
 }
