@@ -2,7 +2,8 @@
   background-image: url('C:\Users\Pushkar Desai\Desktop\FootballFE\my-app\src\rm2.png');
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,5 +44,7 @@
 }
 
 .navbar-brand img {
+  height: 30px;
+  width: 50px;
   margin-right: 5px;
 }
