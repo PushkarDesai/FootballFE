@@ -1,50 +1,25 @@
-.header {
-  background-image: url('C:\Users\Pushkar Desai\Desktop\FootballFE\my-app\src\rm2.png');
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  border: navy;
-  
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+/* Add any other global styles that apply to the whole application */
 
-.club-info {
-  padding: 40px 0;
-  background-color: #f8f9fa;
-}
+/* Navbar Styles */
+/* Since we have moved Navbar styles to its own CSS file, you don't need to include them here */
 
-.players-list {
-  padding: 40px 0;
-}
+/* Header Styles */
+/* Since we have moved Header styles to its own CSS file, you don't need to include them here */
 
-.footer {
-  padding: 20px 0;
-  background-color: #343a40;
-  color: white;
-}
+/* ClubInfo Styles */
+/* If there are any styles specific to ClubInfo component, you can include them here, 
+   otherwise, you can keep it empty */
 
-.navbar {
-  border: 1px solid navy;
-  background-color: white;
-  color: white;
-}
+/* PlayersList Styles */
+/* If there are any styles specific to PlayersList component, you can include them here, 
+   otherwise, you can keep it empty */
 
-.navbar-brand {
-  color: black;
-  font-weight: bold;
-}
-
-.navbar-brand img {
-  height: 30px;
-  width: 50px;
-  margin-right: 5px;
-}
+/* Footer Styles */
+/* Since we have moved Footer styles to its own CSS file, you don't need to include them here */

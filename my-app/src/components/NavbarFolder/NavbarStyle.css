@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+    border: 1px solid navy;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-size: 10px;
+    color: #0255a5;
+    font-weight: bold;
+  }
+  
+  .navbar-brand img {
+    margin-right: 5px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    /* margin-left: ; */
+    margin-right: 34px
+    
+  }
+  
+  .nav-link-item {
+    font-size: 19px;
+    color: #0255a5;
+    text-decoration: none;
+    margin-right: 20px;
+    
+  }
+
+  .fixtures-btn {
+    margin-top: 6%;
+    background-color: #0255a5;
+    color: #ffffff;
+  }
+
+  .squad-btn {
+    margin-top: 6%;
+    background-color: #0255a5;
+    color: #ffffff;
+  }
+  

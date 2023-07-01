@@ -1,24 +1,32 @@
 import React from 'react';
-import Header from './components/Header';
-import ClubInfo from './components/ClubInfo';
-import PlayersList from './components/PlayersList';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-// App component
+import './App.css';
+import Header from './components/HeaderFolder/Header';
+import ClubInfo from './components/ClubInfoFolder/ClubInfo';
+import PlayersList from './components/PlayersListFolder/PlayersList';
+import Fixtures from './components/FixturesFolder/Fixtures';
+import Footer from './components/FooterFolder/Footer';
+import Navbar from './components/NavbarFolder/Navbar';
+
 const App = () => {
   return (
-    <div>
-      <Navbar />
-
-      <Header />
-      <ClubInfo />
-      <PlayersList />
-
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+          <Switch>
+          <Route exact path="/" component={Header} />
+            <Route path="/club-info" component={ClubInfo} />
+            <Route path="/players-list" component={PlayersList} />
+            <Route path="/fixtures" component={Fixtures} />
+          </Switch>
+        <Header />
+        <ClubInfo />
+        
+        <Footer />
+      </div>
+    </Router>
   );
-};
+}
 
 export default App;
