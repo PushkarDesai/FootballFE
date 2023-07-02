@@ -1,6 +1,10 @@
 /* Navbar.css */
 
 .navbar {
+    display: flex;
+    /* align-items: center; */
+    /* position: fixed; */
+    /* justify-content: center; */
     border: 1px solid navy;
     background-color: white;
     color: black;
@@ -42,6 +46,7 @@
   }
 
   .fixtures-btn {
+    
     margin-top: 6%;
     background-color: #0255a5;
     color: #ffffff;

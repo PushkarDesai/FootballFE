@@ -3,7 +3,8 @@
 .header {
   /* background-image: url('/path/to/header-background-image.jpg'); */
   background-size: 100%;
-  background-position: center;
+  
+  background-position: fixed;
   height: 500px;
   display: flex;
   align-items: center;

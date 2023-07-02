@@ -13,8 +13,8 @@ const Navbar = () => {
         <ul className="navbar-nav mx-7 my">
           <li className="nav-item">
             <div className="nav-link">
-              <Link to="/fixtures" className="nav-link-item mx-3"><button type="button" className="btn btn-light fixtures-btn">Fixtures</button></Link>
-              <Link to="/players-list" className="nav-link-item mx-4"><button type="button" className="btn btn-light squad-btn">Squad</button></Link>
+              <Link to="/fixtures" className="nav-link-item mx-3"><button type="button" className="btn btn-warning fixtures-btn">Fixtures</button></Link>
+              <Link to="/players-list" className="nav-link-item mx-4"><button type="button" className="btn btn-warning squad-btn">Squad</button></Link>
             </div>
           </li>
         </ul>
